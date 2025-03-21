@@ -2,7 +2,7 @@
 
 By Thomas Engelmann
 
-Video overview: <[URL HERE](https://youtu.be/seFOit2lA7c)>
+Video overview: <https://youtu.be/seFOit2lA7c>
 
 ## Scope
 
