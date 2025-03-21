@@ -93,7 +93,7 @@ The ist no implementation for athlete comments except a `note` the user can set.
 
 ### Relationships
 
-![ER Diagram](diagram.PNG)
+![ER Diagram](Entity_Relationship_Diagram.PNG)
 
 I made the entity relation diagram with yEd. This free software looks a bit funny but it is wide spread. The attributes are shown as little bubbles around the entities.
 Primary keys are bold and underlined. The rombic blocks represent relations to better imagine what the database does. Cardinality notation is conventional.
