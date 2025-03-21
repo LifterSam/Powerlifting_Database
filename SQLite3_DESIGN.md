@@ -127,6 +127,7 @@ as competitions are a primary interest of this database and will grow exponentio
 Creates an index on the "Athletes" table to improve the speed of lookups based on athlete names,
 as you often search for athletes by their name and thereafter for their workouts.
 
+---
 
 ## Limitations
 
