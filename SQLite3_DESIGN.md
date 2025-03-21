@@ -4,7 +4,6 @@ By Thomas Engelmann
 
 Video overview: <https://youtu.be/seFOit2lA7c>
 
----
 
 ## Scope
 
@@ -20,7 +19,6 @@ As such the database contains:
 
 In this database other competitions than powerlifting are not yet implementet. The limitation is, that new tables would need to be made for every other kind of competition thus needing a new arrangement of the database. You could rename the CompetitionResults table into e.g. PowerliftingResults table and make a cconnection table for competitions. Then you could connect this with foreign keys to every kin of event table not only for powerlifting.
 
----
 
 ## Functional Requirements
 
@@ -31,7 +29,6 @@ Basically every table in the database can be modified if the statements are know
 * What's beyond the scope of what a user should be able to do with your database?
 The ist no implementation for athlete comments except a `note` the user can set. Also as mentioned for now, the database only supports powerlifting and would be in need of a rework to support other sports.
 
----
 
 ## Representation
 
@@ -89,7 +86,6 @@ The ist no implementation for athlete comments except a `note` the user can set.
 - FOREIGN KEY (`AthleteID`) REFERENCES `Athletes` (`AthleteID`): Ensures the result is associated with a valid athlete.
 - FOREIGN KEY (`CompetitionID`) REFERENCES `Competitions` (`CompetitionID`): Ensures the result is linked to a specific competition.
 
----
 
 ### Relationships
 
@@ -112,7 +108,6 @@ Primary keys are bold and underlined. The rombic blocks represent relations to b
 
 ° `WorkoutExercises` and `CompetitionResults` act both as information carriers and as junction tables, connecting the adjacent tables.
 
----
 
 ## Optimizations
 
@@ -127,7 +122,6 @@ as competitions are a primary interest of this database and will grow exponentio
 Creates an index on the "Athletes" table to improve the speed of lookups based on athlete names,
 as you often search for athletes by their name and thereafter for their workouts.
 
----
 
 ## Limitations
 
