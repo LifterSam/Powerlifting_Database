@@ -7,7 +7,7 @@ Video overview: <https://youtu.be/seFOit2lA7c>
 
 ## Scope
 
-This CS50 SQL Database is meant for tracking powerlifting (and other) athles in their workouts and respective competitions.
+This SQL Database is meant for tracking powerlifting (and other) athles in their workouts and respective competitions.
 As such the database contains:
 
 ° Athletes, containig basic information and special attributes neccessary for the sport like weightclass and experience.
